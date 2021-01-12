@@ -13,7 +13,10 @@ module.exports = {
   darkMode: false,
   theme: {},
   variants: {
-    extend: {},
+    extend: {
+      translate: ['active', 'group-hover', 'hover'],
+      inset: ['hover'],
+    },
   },
   plugins: [],
 };
