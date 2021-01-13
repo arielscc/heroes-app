@@ -83,6 +83,14 @@ export const Navbar = () => {
               >
                 Dc
               </NavLink>
+              <NavLink
+                to="/search"
+                exact
+                activeClassName="bg-gray-900"
+                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Search
+              </NavLink>
             </div>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
