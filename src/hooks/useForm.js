@@ -10,7 +10,7 @@ export const useForm = (initialState = {}) => {
     });
   };
 
-  const resetValues = () => setValues(initialState);
+  const resetValues = () => setValues({ searchText: '' });
 
   return [values, handleInputChange, resetValues];
 };
