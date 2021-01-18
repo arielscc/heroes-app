@@ -41,7 +41,6 @@ export const SearchScreen = () => {
     <>
       <div className="w-2/3 m-auto mb-10">
         <form onSubmit={handleSearch}>
-          <label htmlFor="idform">Buscar</label>
           <input
             type="text"
             value={searchText}

@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { AuthContext } from '../../auth/AuthContext';
 
-export const Navbar = () => {
+export const Navbar = React.memo(() => {
   const [toggle, setToggle] = useState(true);
+  const {
+    user: { name },
+  } = useContext(AuthContext);
   return (
     <nav className="bg-gray-800">
       <div className="w-5/6 mx-auto px-2 sm:px-6 lg:px-8">
@@ -112,6 +116,7 @@ export const Navbar = () => {
                 />
               </svg>
             </button>
+            <p className="mx-2 text-gray-200 font-bold">{name}</p>
 
             <div className="ml-3 relative">
               <button
@@ -156,4 +161,4 @@ export const Navbar = () => {
       </div>
     </nav>
   );
-};
+});
