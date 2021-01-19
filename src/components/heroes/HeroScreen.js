@@ -24,8 +24,6 @@ export const HeroScreen = () => {
     return <Redirect to="/" />;
   }
 
-  console.log(history);
-
   return (
     <div className="md:flex md:w-2/3 m-auto rounded-2xl overflow-hidden bg-hero">
       <div className="md:w-3/6 xl:w-2/6">

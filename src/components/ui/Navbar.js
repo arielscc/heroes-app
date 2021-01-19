@@ -1,12 +1,21 @@
 import React, { useContext, useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useHistory } from 'react-router-dom';
 import { AuthContext } from '../../auth/AuthContext';
+import { types } from '../../types/types';
 
 export const Navbar = React.memo(() => {
   const [toggle, setToggle] = useState(true);
   const {
     user: { name },
+    dispatch,
   } = useContext(AuthContext);
+
+  const history = useHistory();
+
+  const handleLogout = () => {
+    dispatch({ type: types.logout });
+    history.replace('/login');
+  };
   return (
     <nav className="bg-gray-800">
       <div className="w-5/6 mx-auto px-2 sm:px-6 lg:px-8">
@@ -147,13 +156,13 @@ export const Navbar = React.memo(() => {
                 aria-orientation="vertical"
                 aria-labelledby="user-menu"
               >
-                <Link
-                  to="/login"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                <button
+                  onClick={handleLogout}
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full focus:outline-none"
                   role="menuitem"
                 >
                   Logout
-                </Link>
+                </button>
               </div>
             </div>
           </div>
