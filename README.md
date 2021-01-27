@@ -1,8 +1,12 @@
-# Setup Create React App & Tailwindcss v2.0
+# Proyecto Heroes
 
-Source Code for Setup and Install Create React App with Tailwindcss v2.0.
+Este proyecto fue creado usando React y TailwindCss, Se trata de un pequeño SPA que tiene integrado conceptos de react-router y muestra buenas practicas de seguridad y protección de rutas.
 
-## Install
+## Más por hacer
+
+Este proyecto debe estar integrado a la API de [HeroesAPI](https://superheroapi.com/) el cual presenta de forma extensa una variada recopilacion de heroes de Marvel y DC con sus diferentes caracteristicas.
+
+## Instalación
 
 ```
 npm install
@@ -11,18 +15,10 @@ npm install
 ## NPM Scripts
 
 ```sh
-#Start script to build tailwindcss and start up the react app.
+#Monta un sevidor de desarrollo integrando TailwindCss con ReactJs
 npm run start
 
-#Part of the start script builds tailwindcss file
-npm run start:tailwind
-
-#Part of the start script watches the css and config file for changes
-npm run start:p:watch-tailwind
-
-#Build out your tailwindcss file before it build the react app for production
+#Compila los archivos y genera un bundle para producción
 npm run build
 
-#Part of the build Script buils Tailwind for production.
-npm run build:a:tailwind
 ```
