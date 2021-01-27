@@ -4,7 +4,7 @@ import { useForm } from '../../hooks/useForm';
 import { HeroeCard } from '../heroes/HeroeCard';
 import queryString from 'query-string';
 import { getHeroesByName } from '../../selectors/getHeroesByName';
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 
 export const SearchScreen = () => {
   const { search } = useLocation();
@@ -16,12 +16,14 @@ export const SearchScreen = () => {
     searchText: q,
   };
 
-  const [values, handleInputChange, resetValues] = useForm(initialState);
+  const [values, handleInputChange, resetValues] = useForm(
+    initialState
+  );
   const { searchText } = values;
 
   const heroesFiltered = useMemo(() => getHeroesByName(q), [q]);
 
-  const handleSearch = (e) => {
+  const handleSearch = e => {
     e.preventDefault();
     if (searchText !== '') {
       history.push(`?q=${searchText}`);
@@ -66,7 +68,7 @@ export const SearchScreen = () => {
       </div>
 
       <div className="w-10/12 mx-auto grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-6">
-        {heroesFiltered.map((hero) => {
+        {heroesFiltered.map(hero => {
           return <HeroeCard key={hero.id} hero={hero} />;
         })}
       </div>
