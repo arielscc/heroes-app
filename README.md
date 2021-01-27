@@ -6,6 +6,10 @@ Este proyecto fue creado usando React y TailwindCss, Se trata de un pequeño SPA
 
 Este proyecto debe estar integrado a la API de [HeroesAPI](https://superheroapi.com/) el cual presenta de forma extensa una variada recopilacion de heroes de Marvel y DC con sus diferentes caracteristicas.
 
+## Link del proyecto
+
+[Heroes App](https://heroes-ap.netlify.app/#/login)
+
 ## Instalación
 
 ```
