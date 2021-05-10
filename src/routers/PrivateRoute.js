@@ -15,14 +15,14 @@ export const PrivateRoute = ({
   return (
     <Route
       {...rest}
-      component={(props) =>
+      component={props =>
         isAuthenticated ? <Component {...props} /> : <Redirect to="/login" />
       }
     />
   );
 };
 
-PrivateRoute.protoYypes = {
+PrivateRoute.propTypes = {
   isAuthenticated: PropTypes.bool.isRequired,
   component: PropTypes.func.isRequired,
 };
