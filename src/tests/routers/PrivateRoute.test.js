@@ -5,9 +5,12 @@ import { PrivateRoute } from '../../routers/PrivateRoute';
 describe('Pruebas en <PrivateRoute> </PrivateRoute>', () => {
   const props = {
     location: {
-      pathname: '/home',
+      pathname: '/marvel',
+      search: '/hulk',
     },
   };
+
+  Storage.prototype.setItem = jest.fn();
 
   test('debe de mostrar el componente si esta autenticado y guardar local storage', () => {
     const wrapper = mount(
@@ -20,7 +23,10 @@ describe('Pruebas en <PrivateRoute> </PrivateRoute>', () => {
       </MemoryRouter>
     );
 
-    console.log(wrapper.html());
     expect(wrapper.find('a').exists()).toBe(true);
+    expect(localStorage.setItem).toHaveBeenCalledWith(
+      'lastPath',
+      '/marvel/hulk'
+    );
   });
 });
