@@ -1,0 +1,1579 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en componente <SearchScreen/> debe de mostrar el componente de forma correcta 1`] = `
+Array [
+  <div
+    className="w-2/3 m-auto mb-10"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        autoComplete="off"
+        className="w-full border-gray-500 border-2 rounded-lg px-5 py-2 focus:outline-none"
+        id="idform"
+        name="searchText"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </form>
+    <button
+      className="py-2 px-4 rounded bg-gray-800 mt-4 text-white"
+      onClick={[Function]}
+    >
+      Buscar
+    </button>
+    <button
+      className="py-2 px-4 rounded border inset-10 border-gray-800 mt-4  ml-2"
+      onClick={[Function]}
+    >
+      Limpiar
+    </button>
+  </div>,
+  <div
+    className="w-10/12 mx-auto grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-6"
+  >
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/dc-batman"
+      onClick={[Function]}
+    >
+      <img
+        alt="Batman"
+        className="rounded-xl"
+        src="./assets/heroes/dc-batman.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1 justify-self-end"
+        >
+          <svg
+            className="w-14 h-14"
+            viewBox="0 0 151.47 151.47"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fill="#1f2937"
+              fillRule="evenodd"
+            >
+              <path
+                d="M75.6 0C33.83.08-.09 34.13 0 75.88c.08 41.75 34.13 75.67 75.88 75.6 41.75-.11 75.67-34.14 75.6-75.89C151.38 33.84 117.33-.08 75.58 0zM46 16.99l-2.64 9.39 8.01 5.56-9.63.15-2.72 9.26-3.18-9.26-9.81.11 7.67-5.82-3.15-9 7.75 5.48zm86.3 13.04l-2.64 9.4 8.02 5.55-9.66.16-2.7 9.26-3.17-9.26-9.82.13 7.68-5.85-3.18-9 7.78 5.48zm-56.67 2.54a43.18 43.18 0 11.16 86.36 43.18 43.18 0 01-.16-86.36zm-39.74 70.9l-2.64 9.37 8.02 5.56-9.64.13-2.72 9.26-3.18-9.23-9.79.1 7.68-5.82-3.18-9 7.75 5.49zm83.93 10.46l-2.65 9.4 8.02 5.55-9.63.16-2.73 9.26-3.17-9.26-9.79.1 7.67-5.82-3.17-9 7.75 5.48z"
+              />
+              <path
+                d="M55.48 59.76l-17.7 13.5 29.92 39.31 17.33-13.2 1.46-10.64-21.06-27.62zm3.65 12.54l15.19 19.95-4.93 3.76-.63-.8L54.2 76.07zM68.79 50.52l-1.2 8.84 21.65 28.42 10.35 1.4 11.45-8.73 1.46-10.64-7.68-10.05-9.52 7.27 4.42 5.82-4.95 3.81-14.98-19.7 4.93-3.77 4.44 5.83 9.55-7.25-7.25-9.53-9.97-1.37-12.7 9.68z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Batman
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Bruce Wayne
+          </p>
+          <p>
+            DC Comics
+          </p>
+          <p>
+            Detective Comics #27
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Bruce Wayne
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/dc-superman"
+      onClick={[Function]}
+    >
+      <img
+        alt="Superman"
+        className="rounded-xl"
+        src="./assets/heroes/dc-superman.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1 justify-self-end"
+        >
+          <svg
+            className="w-14 h-14"
+            viewBox="0 0 151.47 151.47"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fill="#1f2937"
+              fillRule="evenodd"
+            >
+              <path
+                d="M75.6 0C33.83.08-.09 34.13 0 75.88c.08 41.75 34.13 75.67 75.88 75.6 41.75-.11 75.67-34.14 75.6-75.89C151.38 33.84 117.33-.08 75.58 0zM46 16.99l-2.64 9.39 8.01 5.56-9.63.15-2.72 9.26-3.18-9.26-9.81.11 7.67-5.82-3.15-9 7.75 5.48zm86.3 13.04l-2.64 9.4 8.02 5.55-9.66.16-2.7 9.26-3.17-9.26-9.82.13 7.68-5.85-3.18-9 7.78 5.48zm-56.67 2.54a43.18 43.18 0 11.16 86.36 43.18 43.18 0 01-.16-86.36zm-39.74 70.9l-2.64 9.37 8.02 5.56-9.64.13-2.72 9.26-3.18-9.23-9.79.1 7.68-5.82-3.18-9 7.75 5.49zm83.93 10.46l-2.65 9.4 8.02 5.55-9.63.16-2.73 9.26-3.17-9.26-9.79.1 7.67-5.82-3.17-9 7.75 5.48z"
+              />
+              <path
+                d="M55.48 59.76l-17.7 13.5 29.92 39.31 17.33-13.2 1.46-10.64-21.06-27.62zm3.65 12.54l15.19 19.95-4.93 3.76-.63-.8L54.2 76.07zM68.79 50.52l-1.2 8.84 21.65 28.42 10.35 1.4 11.45-8.73 1.46-10.64-7.68-10.05-9.52 7.27 4.42 5.82-4.95 3.81-14.98-19.7 4.93-3.77 4.44 5.83 9.55-7.25-7.25-9.53-9.97-1.37-12.7 9.68z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Superman
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Kal-El
+          </p>
+          <p>
+            DC Comics
+          </p>
+          <p>
+            Action Comics #1
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Kal-El
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/dc-flash"
+      onClick={[Function]}
+    >
+      <img
+        alt="Flash"
+        className="rounded-xl"
+        src="./assets/heroes/dc-flash.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1 justify-self-end"
+        >
+          <svg
+            className="w-14 h-14"
+            viewBox="0 0 151.47 151.47"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fill="#1f2937"
+              fillRule="evenodd"
+            >
+              <path
+                d="M75.6 0C33.83.08-.09 34.13 0 75.88c.08 41.75 34.13 75.67 75.88 75.6 41.75-.11 75.67-34.14 75.6-75.89C151.38 33.84 117.33-.08 75.58 0zM46 16.99l-2.64 9.39 8.01 5.56-9.63.15-2.72 9.26-3.18-9.26-9.81.11 7.67-5.82-3.15-9 7.75 5.48zm86.3 13.04l-2.64 9.4 8.02 5.55-9.66.16-2.7 9.26-3.17-9.26-9.82.13 7.68-5.85-3.18-9 7.78 5.48zm-56.67 2.54a43.18 43.18 0 11.16 86.36 43.18 43.18 0 01-.16-86.36zm-39.74 70.9l-2.64 9.37 8.02 5.56-9.64.13-2.72 9.26-3.18-9.23-9.79.1 7.68-5.82-3.18-9 7.75 5.49zm83.93 10.46l-2.65 9.4 8.02 5.55-9.63.16-2.73 9.26-3.17-9.26-9.79.1 7.67-5.82-3.17-9 7.75 5.48z"
+              />
+              <path
+                d="M55.48 59.76l-17.7 13.5 29.92 39.31 17.33-13.2 1.46-10.64-21.06-27.62zm3.65 12.54l15.19 19.95-4.93 3.76-.63-.8L54.2 76.07zM68.79 50.52l-1.2 8.84 21.65 28.42 10.35 1.4 11.45-8.73 1.46-10.64-7.68-10.05-9.52 7.27 4.42 5.82-4.95 3.81-14.98-19.7 4.93-3.77 4.44 5.83 9.55-7.25-7.25-9.53-9.97-1.37-12.7 9.68z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Flash
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Jay Garrick
+          </p>
+          <p>
+            DC Comics
+          </p>
+          <p>
+            Flash Comics #1
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Jay Garrick, Barry Allen, Wally West, Bart Allen
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/dc-green"
+      onClick={[Function]}
+    >
+      <img
+        alt="Green Lantern"
+        className="rounded-xl"
+        src="./assets/heroes/dc-green.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1 justify-self-end"
+        >
+          <svg
+            className="w-14 h-14"
+            viewBox="0 0 151.47 151.47"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fill="#1f2937"
+              fillRule="evenodd"
+            >
+              <path
+                d="M75.6 0C33.83.08-.09 34.13 0 75.88c.08 41.75 34.13 75.67 75.88 75.6 41.75-.11 75.67-34.14 75.6-75.89C151.38 33.84 117.33-.08 75.58 0zM46 16.99l-2.64 9.39 8.01 5.56-9.63.15-2.72 9.26-3.18-9.26-9.81.11 7.67-5.82-3.15-9 7.75 5.48zm86.3 13.04l-2.64 9.4 8.02 5.55-9.66.16-2.7 9.26-3.17-9.26-9.82.13 7.68-5.85-3.18-9 7.78 5.48zm-56.67 2.54a43.18 43.18 0 11.16 86.36 43.18 43.18 0 01-.16-86.36zm-39.74 70.9l-2.64 9.37 8.02 5.56-9.64.13-2.72 9.26-3.18-9.23-9.79.1 7.68-5.82-3.18-9 7.75 5.49zm83.93 10.46l-2.65 9.4 8.02 5.55-9.63.16-2.73 9.26-3.17-9.26-9.79.1 7.67-5.82-3.17-9 7.75 5.48z"
+              />
+              <path
+                d="M55.48 59.76l-17.7 13.5 29.92 39.31 17.33-13.2 1.46-10.64-21.06-27.62zm3.65 12.54l15.19 19.95-4.93 3.76-.63-.8L54.2 76.07zM68.79 50.52l-1.2 8.84 21.65 28.42 10.35 1.4 11.45-8.73 1.46-10.64-7.68-10.05-9.52 7.27 4.42 5.82-4.95 3.81-14.98-19.7 4.93-3.77 4.44 5.83 9.55-7.25-7.25-9.53-9.97-1.37-12.7 9.68z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Green Lantern
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Alan Scott
+          </p>
+          <p>
+            DC Comics
+          </p>
+          <p>
+            All-American Comics #16
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/dc-arrow"
+      onClick={[Function]}
+    >
+      <img
+        alt="Green Arrow"
+        className="rounded-xl"
+        src="./assets/heroes/dc-arrow.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1 justify-self-end"
+        >
+          <svg
+            className="w-14 h-14"
+            viewBox="0 0 151.47 151.47"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fill="#1f2937"
+              fillRule="evenodd"
+            >
+              <path
+                d="M75.6 0C33.83.08-.09 34.13 0 75.88c.08 41.75 34.13 75.67 75.88 75.6 41.75-.11 75.67-34.14 75.6-75.89C151.38 33.84 117.33-.08 75.58 0zM46 16.99l-2.64 9.39 8.01 5.56-9.63.15-2.72 9.26-3.18-9.26-9.81.11 7.67-5.82-3.15-9 7.75 5.48zm86.3 13.04l-2.64 9.4 8.02 5.55-9.66.16-2.7 9.26-3.17-9.26-9.82.13 7.68-5.85-3.18-9 7.78 5.48zm-56.67 2.54a43.18 43.18 0 11.16 86.36 43.18 43.18 0 01-.16-86.36zm-39.74 70.9l-2.64 9.37 8.02 5.56-9.64.13-2.72 9.26-3.18-9.23-9.79.1 7.68-5.82-3.18-9 7.75 5.49zm83.93 10.46l-2.65 9.4 8.02 5.55-9.63.16-2.73 9.26-3.17-9.26-9.79.1 7.67-5.82-3.17-9 7.75 5.48z"
+              />
+              <path
+                d="M55.48 59.76l-17.7 13.5 29.92 39.31 17.33-13.2 1.46-10.64-21.06-27.62zm3.65 12.54l15.19 19.95-4.93 3.76-.63-.8L54.2 76.07zM68.79 50.52l-1.2 8.84 21.65 28.42 10.35 1.4 11.45-8.73 1.46-10.64-7.68-10.05-9.52 7.27 4.42 5.82-4.95 3.81-14.98-19.7 4.93-3.77 4.44 5.83 9.55-7.25-7.25-9.53-9.97-1.37-12.7 9.68z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Green Arrow
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Oliver Queen
+          </p>
+          <p>
+            DC Comics
+          </p>
+          <p>
+            More Fun Comics #73
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Oliver Queen
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/dc-wonder"
+      onClick={[Function]}
+    >
+      <img
+        alt="Wonder Woman"
+        className="rounded-xl"
+        src="./assets/heroes/dc-wonder.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1 justify-self-end"
+        >
+          <svg
+            className="w-14 h-14"
+            viewBox="0 0 151.47 151.47"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fill="#1f2937"
+              fillRule="evenodd"
+            >
+              <path
+                d="M75.6 0C33.83.08-.09 34.13 0 75.88c.08 41.75 34.13 75.67 75.88 75.6 41.75-.11 75.67-34.14 75.6-75.89C151.38 33.84 117.33-.08 75.58 0zM46 16.99l-2.64 9.39 8.01 5.56-9.63.15-2.72 9.26-3.18-9.26-9.81.11 7.67-5.82-3.15-9 7.75 5.48zm86.3 13.04l-2.64 9.4 8.02 5.55-9.66.16-2.7 9.26-3.17-9.26-9.82.13 7.68-5.85-3.18-9 7.78 5.48zm-56.67 2.54a43.18 43.18 0 11.16 86.36 43.18 43.18 0 01-.16-86.36zm-39.74 70.9l-2.64 9.37 8.02 5.56-9.64.13-2.72 9.26-3.18-9.23-9.79.1 7.68-5.82-3.18-9 7.75 5.49zm83.93 10.46l-2.65 9.4 8.02 5.55-9.63.16-2.73 9.26-3.17-9.26-9.79.1 7.67-5.82-3.17-9 7.75 5.48z"
+              />
+              <path
+                d="M55.48 59.76l-17.7 13.5 29.92 39.31 17.33-13.2 1.46-10.64-21.06-27.62zm3.65 12.54l15.19 19.95-4.93 3.76-.63-.8L54.2 76.07zM68.79 50.52l-1.2 8.84 21.65 28.42 10.35 1.4 11.45-8.73 1.46-10.64-7.68-10.05-9.52 7.27 4.42 5.82-4.95 3.81-14.98-19.7 4.93-3.77 4.44 5.83 9.55-7.25-7.25-9.53-9.97-1.37-12.7 9.68z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Wonder Woman
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Princess Diana
+          </p>
+          <p>
+            DC Comics
+          </p>
+          <p>
+            All Star Comics #8
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Princess Diana
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/dc-martian"
+      onClick={[Function]}
+    >
+      <img
+        alt="Martian Manhunter"
+        className="rounded-xl"
+        src="./assets/heroes/dc-martian.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1 justify-self-end"
+        >
+          <svg
+            className="w-14 h-14"
+            viewBox="0 0 151.47 151.47"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fill="#1f2937"
+              fillRule="evenodd"
+            >
+              <path
+                d="M75.6 0C33.83.08-.09 34.13 0 75.88c.08 41.75 34.13 75.67 75.88 75.6 41.75-.11 75.67-34.14 75.6-75.89C151.38 33.84 117.33-.08 75.58 0zM46 16.99l-2.64 9.39 8.01 5.56-9.63.15-2.72 9.26-3.18-9.26-9.81.11 7.67-5.82-3.15-9 7.75 5.48zm86.3 13.04l-2.64 9.4 8.02 5.55-9.66.16-2.7 9.26-3.17-9.26-9.82.13 7.68-5.85-3.18-9 7.78 5.48zm-56.67 2.54a43.18 43.18 0 11.16 86.36 43.18 43.18 0 01-.16-86.36zm-39.74 70.9l-2.64 9.37 8.02 5.56-9.64.13-2.72 9.26-3.18-9.23-9.79.1 7.68-5.82-3.18-9 7.75 5.49zm83.93 10.46l-2.65 9.4 8.02 5.55-9.63.16-2.73 9.26-3.17-9.26-9.79.1 7.67-5.82-3.17-9 7.75 5.48z"
+              />
+              <path
+                d="M55.48 59.76l-17.7 13.5 29.92 39.31 17.33-13.2 1.46-10.64-21.06-27.62zm3.65 12.54l15.19 19.95-4.93 3.76-.63-.8L54.2 76.07zM68.79 50.52l-1.2 8.84 21.65 28.42 10.35 1.4 11.45-8.73 1.46-10.64-7.68-10.05-9.52 7.27 4.42 5.82-4.95 3.81-14.98-19.7 4.93-3.77 4.44 5.83 9.55-7.25-7.25-9.53-9.97-1.37-12.7 9.68z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Martian Manhunter
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            J'onn J'onzz
+          </p>
+          <p>
+            DC Comics
+          </p>
+          <p>
+            Detective Comics #225
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Martian Manhunter
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/dc-robin"
+      onClick={[Function]}
+    >
+      <img
+        alt="Robin/Nightwing"
+        className="rounded-xl"
+        src="./assets/heroes/dc-robin.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1 justify-self-end"
+        >
+          <svg
+            className="w-14 h-14"
+            viewBox="0 0 151.47 151.47"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fill="#1f2937"
+              fillRule="evenodd"
+            >
+              <path
+                d="M75.6 0C33.83.08-.09 34.13 0 75.88c.08 41.75 34.13 75.67 75.88 75.6 41.75-.11 75.67-34.14 75.6-75.89C151.38 33.84 117.33-.08 75.58 0zM46 16.99l-2.64 9.39 8.01 5.56-9.63.15-2.72 9.26-3.18-9.26-9.81.11 7.67-5.82-3.15-9 7.75 5.48zm86.3 13.04l-2.64 9.4 8.02 5.55-9.66.16-2.7 9.26-3.17-9.26-9.82.13 7.68-5.85-3.18-9 7.78 5.48zm-56.67 2.54a43.18 43.18 0 11.16 86.36 43.18 43.18 0 01-.16-86.36zm-39.74 70.9l-2.64 9.37 8.02 5.56-9.64.13-2.72 9.26-3.18-9.23-9.79.1 7.68-5.82-3.18-9 7.75 5.49zm83.93 10.46l-2.65 9.4 8.02 5.55-9.63.16-2.73 9.26-3.17-9.26-9.79.1 7.67-5.82-3.17-9 7.75 5.48z"
+              />
+              <path
+                d="M55.48 59.76l-17.7 13.5 29.92 39.31 17.33-13.2 1.46-10.64-21.06-27.62zm3.65 12.54l15.19 19.95-4.93 3.76-.63-.8L54.2 76.07zM68.79 50.52l-1.2 8.84 21.65 28.42 10.35 1.4 11.45-8.73 1.46-10.64-7.68-10.05-9.52 7.27 4.42 5.82-4.95 3.81-14.98-19.7 4.93-3.77 4.44 5.83 9.55-7.25-7.25-9.53-9.97-1.37-12.7 9.68z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Robin/Nightwing
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Dick Grayson
+          </p>
+          <p>
+            DC Comics
+          </p>
+          <p>
+            Detective Comics #38
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Dick Grayson
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/dc-blue"
+      onClick={[Function]}
+    >
+      <img
+        alt="Blue Beetle"
+        className="rounded-xl"
+        src="./assets/heroes/dc-blue.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1 justify-self-end"
+        >
+          <svg
+            className="w-14 h-14"
+            viewBox="0 0 151.47 151.47"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fill="#1f2937"
+              fillRule="evenodd"
+            >
+              <path
+                d="M75.6 0C33.83.08-.09 34.13 0 75.88c.08 41.75 34.13 75.67 75.88 75.6 41.75-.11 75.67-34.14 75.6-75.89C151.38 33.84 117.33-.08 75.58 0zM46 16.99l-2.64 9.39 8.01 5.56-9.63.15-2.72 9.26-3.18-9.26-9.81.11 7.67-5.82-3.15-9 7.75 5.48zm86.3 13.04l-2.64 9.4 8.02 5.55-9.66.16-2.7 9.26-3.17-9.26-9.82.13 7.68-5.85-3.18-9 7.78 5.48zm-56.67 2.54a43.18 43.18 0 11.16 86.36 43.18 43.18 0 01-.16-86.36zm-39.74 70.9l-2.64 9.37 8.02 5.56-9.64.13-2.72 9.26-3.18-9.23-9.79.1 7.68-5.82-3.18-9 7.75 5.49zm83.93 10.46l-2.65 9.4 8.02 5.55-9.63.16-2.73 9.26-3.17-9.26-9.79.1 7.67-5.82-3.17-9 7.75 5.48z"
+              />
+              <path
+                d="M55.48 59.76l-17.7 13.5 29.92 39.31 17.33-13.2 1.46-10.64-21.06-27.62zm3.65 12.54l15.19 19.95-4.93 3.76-.63-.8L54.2 76.07zM68.79 50.52l-1.2 8.84 21.65 28.42 10.35 1.4 11.45-8.73 1.46-10.64-7.68-10.05-9.52 7.27 4.42 5.82-4.95 3.81-14.98-19.7 4.93-3.77 4.44 5.83 9.55-7.25-7.25-9.53-9.97-1.37-12.7 9.68z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Blue Beetle
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Dan Garret
+          </p>
+          <p>
+            DC Comics
+          </p>
+          <p>
+            Mystery Men Comics #1
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Dan Garret, Ted Kord, Jaime Reyes
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/dc-black"
+      onClick={[Function]}
+    >
+      <img
+        alt="Black Canary"
+        className="rounded-xl"
+        src="./assets/heroes/dc-black.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1 justify-self-end"
+        >
+          <svg
+            className="w-14 h-14"
+            viewBox="0 0 151.47 151.47"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fill="#1f2937"
+              fillRule="evenodd"
+            >
+              <path
+                d="M75.6 0C33.83.08-.09 34.13 0 75.88c.08 41.75 34.13 75.67 75.88 75.6 41.75-.11 75.67-34.14 75.6-75.89C151.38 33.84 117.33-.08 75.58 0zM46 16.99l-2.64 9.39 8.01 5.56-9.63.15-2.72 9.26-3.18-9.26-9.81.11 7.67-5.82-3.15-9 7.75 5.48zm86.3 13.04l-2.64 9.4 8.02 5.55-9.66.16-2.7 9.26-3.17-9.26-9.82.13 7.68-5.85-3.18-9 7.78 5.48zm-56.67 2.54a43.18 43.18 0 11.16 86.36 43.18 43.18 0 01-.16-86.36zm-39.74 70.9l-2.64 9.37 8.02 5.56-9.64.13-2.72 9.26-3.18-9.23-9.79.1 7.68-5.82-3.18-9 7.75 5.49zm83.93 10.46l-2.65 9.4 8.02 5.55-9.63.16-2.73 9.26-3.17-9.26-9.79.1 7.67-5.82-3.17-9 7.75 5.48z"
+              />
+              <path
+                d="M55.48 59.76l-17.7 13.5 29.92 39.31 17.33-13.2 1.46-10.64-21.06-27.62zm3.65 12.54l15.19 19.95-4.93 3.76-.63-.8L54.2 76.07zM68.79 50.52l-1.2 8.84 21.65 28.42 10.35 1.4 11.45-8.73 1.46-10.64-7.68-10.05-9.52 7.27 4.42 5.82-4.95 3.81-14.98-19.7 4.93-3.77 4.44 5.83 9.55-7.25-7.25-9.53-9.97-1.37-12.7 9.68z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Black Canary
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Dinah Drake
+          </p>
+          <p>
+            DC Comics
+          </p>
+          <p>
+            Flash Comics #86
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Dinah Drake, Dinah Lance
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/marvel-spider"
+      onClick={[Function]}
+    >
+      <img
+        alt="Spider Man"
+        className="rounded-xl"
+        src="./assets/heroes/marvel-spider.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1"
+        >
+          <svg
+            className="w-14 h-14 mx-auto"
+            viewBox="0 0 592.3 569.2"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fillRule="evenodd"
+              transform="matrix(1.17075 0 0 1.17075 -3.7 -14.8)"
+            >
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="239.3"
+                ry="229.5"
+                stroke="#1f2937"
+                strokeWidth="27.3"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                fill="#fff"
+                rx="192.5"
+                ry="184.6"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="135.3"
+                ry="129.8"
+                stroke="#1f2937"
+                strokeWidth="15.4"
+              />
+              <g
+                stroke="#1f2937"
+                strokeWidth="13.6"
+              >
+                <path
+                  d="M279.3 44L101.6 434.4h68.3l46.5-112.6h62.1l.8 38.8 59-2.3-4.7-313.5z"
+                  fill="#fff"
+                />
+                <path
+                  d="M280 262v-88.4L242 262zM280.1 236.4l57.4 58.3M279.3 347.4l58.2-45.8"
+                  fill="none"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Spider Man
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Peter Parker
+          </p>
+          <p>
+            Marvel Comics
+          </p>
+          <p>
+            Amazing Fantasy #15
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Peter Parker
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/marvel-captain"
+      onClick={[Function]}
+    >
+      <img
+        alt="Captain America"
+        className="rounded-xl"
+        src="./assets/heroes/marvel-captain.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1"
+        >
+          <svg
+            className="w-14 h-14 mx-auto"
+            viewBox="0 0 592.3 569.2"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fillRule="evenodd"
+              transform="matrix(1.17075 0 0 1.17075 -3.7 -14.8)"
+            >
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="239.3"
+                ry="229.5"
+                stroke="#1f2937"
+                strokeWidth="27.3"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                fill="#fff"
+                rx="192.5"
+                ry="184.6"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="135.3"
+                ry="129.8"
+                stroke="#1f2937"
+                strokeWidth="15.4"
+              />
+              <g
+                stroke="#1f2937"
+                strokeWidth="13.6"
+              >
+                <path
+                  d="M279.3 44L101.6 434.4h68.3l46.5-112.6h62.1l.8 38.8 59-2.3-4.7-313.5z"
+                  fill="#fff"
+                />
+                <path
+                  d="M280 262v-88.4L242 262zM280.1 236.4l57.4 58.3M279.3 347.4l58.2-45.8"
+                  fill="none"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Captain America
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Steve Rogers
+          </p>
+          <p>
+            Marvel Comics
+          </p>
+          <p>
+            Captain America Comics #1
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Steve Rogers
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/marvel-iron"
+      onClick={[Function]}
+    >
+      <img
+        alt="Iron Man"
+        className="rounded-xl"
+        src="./assets/heroes/marvel-iron.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1"
+        >
+          <svg
+            className="w-14 h-14 mx-auto"
+            viewBox="0 0 592.3 569.2"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fillRule="evenodd"
+              transform="matrix(1.17075 0 0 1.17075 -3.7 -14.8)"
+            >
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="239.3"
+                ry="229.5"
+                stroke="#1f2937"
+                strokeWidth="27.3"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                fill="#fff"
+                rx="192.5"
+                ry="184.6"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="135.3"
+                ry="129.8"
+                stroke="#1f2937"
+                strokeWidth="15.4"
+              />
+              <g
+                stroke="#1f2937"
+                strokeWidth="13.6"
+              >
+                <path
+                  d="M279.3 44L101.6 434.4h68.3l46.5-112.6h62.1l.8 38.8 59-2.3-4.7-313.5z"
+                  fill="#fff"
+                />
+                <path
+                  d="M280 262v-88.4L242 262zM280.1 236.4l57.4 58.3M279.3 347.4l58.2-45.8"
+                  fill="none"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Iron Man
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Tony Stark
+          </p>
+          <p>
+            Marvel Comics
+          </p>
+          <p>
+            Tales of Suspense #39
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Tony Stark
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/marvel-thor"
+      onClick={[Function]}
+    >
+      <img
+        alt="Thor"
+        className="rounded-xl"
+        src="./assets/heroes/marvel-thor.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1"
+        >
+          <svg
+            className="w-14 h-14 mx-auto"
+            viewBox="0 0 592.3 569.2"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fillRule="evenodd"
+              transform="matrix(1.17075 0 0 1.17075 -3.7 -14.8)"
+            >
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="239.3"
+                ry="229.5"
+                stroke="#1f2937"
+                strokeWidth="27.3"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                fill="#fff"
+                rx="192.5"
+                ry="184.6"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="135.3"
+                ry="129.8"
+                stroke="#1f2937"
+                strokeWidth="15.4"
+              />
+              <g
+                stroke="#1f2937"
+                strokeWidth="13.6"
+              >
+                <path
+                  d="M279.3 44L101.6 434.4h68.3l46.5-112.6h62.1l.8 38.8 59-2.3-4.7-313.5z"
+                  fill="#fff"
+                />
+                <path
+                  d="M280 262v-88.4L242 262zM280.1 236.4l57.4 58.3M279.3 347.4l58.2-45.8"
+                  fill="none"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Thor
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Thor Odinson
+          </p>
+          <p>
+            Marvel Comics
+          </p>
+          <p>
+            Journey into Myster #83
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Thor Odinson
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/marvel-hulk"
+      onClick={[Function]}
+    >
+      <img
+        alt="Hulk"
+        className="rounded-xl"
+        src="./assets/heroes/marvel-hulk.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1"
+        >
+          <svg
+            className="w-14 h-14 mx-auto"
+            viewBox="0 0 592.3 569.2"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fillRule="evenodd"
+              transform="matrix(1.17075 0 0 1.17075 -3.7 -14.8)"
+            >
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="239.3"
+                ry="229.5"
+                stroke="#1f2937"
+                strokeWidth="27.3"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                fill="#fff"
+                rx="192.5"
+                ry="184.6"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="135.3"
+                ry="129.8"
+                stroke="#1f2937"
+                strokeWidth="15.4"
+              />
+              <g
+                stroke="#1f2937"
+                strokeWidth="13.6"
+              >
+                <path
+                  d="M279.3 44L101.6 434.4h68.3l46.5-112.6h62.1l.8 38.8 59-2.3-4.7-313.5z"
+                  fill="#fff"
+                />
+                <path
+                  d="M280 262v-88.4L242 262zM280.1 236.4l57.4 58.3M279.3 347.4l58.2-45.8"
+                  fill="none"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Hulk
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Bruce Banner
+          </p>
+          <p>
+            Marvel Comics
+          </p>
+          <p>
+            The Incredible Hulk #1
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Bruce Banner
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/marvel-wolverine"
+      onClick={[Function]}
+    >
+      <img
+        alt="Wolverine"
+        className="rounded-xl"
+        src="./assets/heroes/marvel-wolverine.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1"
+        >
+          <svg
+            className="w-14 h-14 mx-auto"
+            viewBox="0 0 592.3 569.2"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fillRule="evenodd"
+              transform="matrix(1.17075 0 0 1.17075 -3.7 -14.8)"
+            >
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="239.3"
+                ry="229.5"
+                stroke="#1f2937"
+                strokeWidth="27.3"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                fill="#fff"
+                rx="192.5"
+                ry="184.6"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="135.3"
+                ry="129.8"
+                stroke="#1f2937"
+                strokeWidth="15.4"
+              />
+              <g
+                stroke="#1f2937"
+                strokeWidth="13.6"
+              >
+                <path
+                  d="M279.3 44L101.6 434.4h68.3l46.5-112.6h62.1l.8 38.8 59-2.3-4.7-313.5z"
+                  fill="#fff"
+                />
+                <path
+                  d="M280 262v-88.4L242 262zM280.1 236.4l57.4 58.3M279.3 347.4l58.2-45.8"
+                  fill="none"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Wolverine
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            James Howlett
+          </p>
+          <p>
+            Marvel Comics
+          </p>
+          <p>
+            The Incredible Hulk #180
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            James Howlett
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/marvel-daredevil"
+      onClick={[Function]}
+    >
+      <img
+        alt="Daredevil"
+        className="rounded-xl"
+        src="./assets/heroes/marvel-daredevil.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1"
+        >
+          <svg
+            className="w-14 h-14 mx-auto"
+            viewBox="0 0 592.3 569.2"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fillRule="evenodd"
+              transform="matrix(1.17075 0 0 1.17075 -3.7 -14.8)"
+            >
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="239.3"
+                ry="229.5"
+                stroke="#1f2937"
+                strokeWidth="27.3"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                fill="#fff"
+                rx="192.5"
+                ry="184.6"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="135.3"
+                ry="129.8"
+                stroke="#1f2937"
+                strokeWidth="15.4"
+              />
+              <g
+                stroke="#1f2937"
+                strokeWidth="13.6"
+              >
+                <path
+                  d="M279.3 44L101.6 434.4h68.3l46.5-112.6h62.1l.8 38.8 59-2.3-4.7-313.5z"
+                  fill="#fff"
+                />
+                <path
+                  d="M280 262v-88.4L242 262zM280.1 236.4l57.4 58.3M279.3 347.4l58.2-45.8"
+                  fill="none"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Daredevil
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Matthew Michael Murdock
+          </p>
+          <p>
+            Marvel Comics
+          </p>
+          <p>
+            Daredevil #1
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Matthew Michael Murdock
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/marvel-hawkeye"
+      onClick={[Function]}
+    >
+      <img
+        alt="Hawkeye"
+        className="rounded-xl"
+        src="./assets/heroes/marvel-hawkeye.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1"
+        >
+          <svg
+            className="w-14 h-14 mx-auto"
+            viewBox="0 0 592.3 569.2"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fillRule="evenodd"
+              transform="matrix(1.17075 0 0 1.17075 -3.7 -14.8)"
+            >
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="239.3"
+                ry="229.5"
+                stroke="#1f2937"
+                strokeWidth="27.3"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                fill="#fff"
+                rx="192.5"
+                ry="184.6"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="135.3"
+                ry="129.8"
+                stroke="#1f2937"
+                strokeWidth="15.4"
+              />
+              <g
+                stroke="#1f2937"
+                strokeWidth="13.6"
+              >
+                <path
+                  d="M279.3 44L101.6 434.4h68.3l46.5-112.6h62.1l.8 38.8 59-2.3-4.7-313.5z"
+                  fill="#fff"
+                />
+                <path
+                  d="M280 262v-88.4L242 262zM280.1 236.4l57.4 58.3M279.3 347.4l58.2-45.8"
+                  fill="none"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Hawkeye
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Clinton Francis Barton
+          </p>
+          <p>
+            Marvel Comics
+          </p>
+          <p>
+            Tales of Suspense #57
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Clinton Francis Barton
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/marvel-cyclops"
+      onClick={[Function]}
+    >
+      <img
+        alt="Cyclops"
+        className="rounded-xl"
+        src="./assets/heroes/marvel-cyclops.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1"
+        >
+          <svg
+            className="w-14 h-14 mx-auto"
+            viewBox="0 0 592.3 569.2"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fillRule="evenodd"
+              transform="matrix(1.17075 0 0 1.17075 -3.7 -14.8)"
+            >
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="239.3"
+                ry="229.5"
+                stroke="#1f2937"
+                strokeWidth="27.3"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                fill="#fff"
+                rx="192.5"
+                ry="184.6"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="135.3"
+                ry="129.8"
+                stroke="#1f2937"
+                strokeWidth="15.4"
+              />
+              <g
+                stroke="#1f2937"
+                strokeWidth="13.6"
+              >
+                <path
+                  d="M279.3 44L101.6 434.4h68.3l46.5-112.6h62.1l.8 38.8 59-2.3-4.7-313.5z"
+                  fill="#fff"
+                />
+                <path
+                  d="M280 262v-88.4L242 262zM280.1 236.4l57.4 58.3M279.3 347.4l58.2-45.8"
+                  fill="none"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Cyclops
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Scott Summers
+          </p>
+          <p>
+            Marvel Comics
+          </p>
+          <p>
+            X-Men #1
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Scott Summers
+          </p>
+        </div>
+      </div>
+    </a>
+    <a
+      className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
+      href="/hero/marvel-silver"
+      onClick={[Function]}
+    >
+      <img
+        alt="Silver Surfer"
+        className="rounded-xl"
+        src="./assets/heroes/marvel-silver.jpg"
+      />
+      <div
+        className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
+      >
+        <div
+          className="bg-white absolute -top-8 right-3 rounded-full p-1"
+        >
+          <svg
+            className="w-14 h-14 mx-auto"
+            viewBox="0 0 592.3 569.2"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clipRule="evenodd"
+              fillRule="evenodd"
+              transform="matrix(1.17075 0 0 1.17075 -3.7 -14.8)"
+            >
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="239.3"
+                ry="229.5"
+                stroke="#1f2937"
+                strokeWidth="27.3"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                fill="#fff"
+                rx="192.5"
+                ry="184.6"
+              />
+              <ellipse
+                cx="256.1"
+                cy="255.8"
+                rx="135.3"
+                ry="129.8"
+                stroke="#1f2937"
+                strokeWidth="15.4"
+              />
+              <g
+                stroke="#1f2937"
+                strokeWidth="13.6"
+              >
+                <path
+                  d="M279.3 44L101.6 434.4h68.3l46.5-112.6h62.1l.8 38.8 59-2.3-4.7-313.5z"
+                  fill="#fff"
+                />
+                <path
+                  d="M280 262v-88.4L242 262zM280.1 236.4l57.4 58.3M279.3 347.4l58.2-45.8"
+                  fill="none"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div
+          className="self-auto text-gray-200 ml-2 mb-2 title"
+        >
+          <h2
+            className="text-xl font-extrabold text-gray-100"
+          >
+            Silver Surfer
+          </h2>
+          <p
+            className="uppercase text-xs mb-4 text-gray-400"
+          >
+            Norrin Radd
+          </p>
+          <p>
+            Marvel Comics
+          </p>
+          <p>
+            The Fantastic Four #48
+          </p>
+          <p
+            className="font-thin text-sm text-gray-400"
+          >
+            Norrin Radd
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>,
+]
+`;
