@@ -29,4 +29,17 @@ describe('Pruebas en <PrivateRoute> </PrivateRoute>', () => {
       '/marvel/hulk'
     );
   });
+  test('Debe de bloquear el componente si no esta autenticado', () => {
+    const wrapper = mount(
+      <MemoryRouter>
+        <PrivateRoute
+          isAuthenticated={false}
+          component={() => <a>private</a>}
+          {...props}
+        />
+      </MemoryRouter>
+    );
+
+    expect(wrapper.find('a').exists()).toBe(false);
+  });
 });

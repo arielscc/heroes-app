@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AppRouter/> debe de mostrar el login si no esta autenticado 1`] = `
+<div
+  className="flex justify-between m-10"
+>
+  <h1>
+    LoginScreen
+  </h1>
+  <button
+    className="py-2 px-4 font-semibold rounded-lg shadow-md text-white bg-pink-600 hover:bg-pink-700 focus:outline-none"
+    onClick={[Function]}
+  >
+    Login
+  </button>
+</div>
+`;
