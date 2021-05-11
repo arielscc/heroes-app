@@ -8,7 +8,13 @@ export const HeroScreen = () => {
   const { heroeId } = useParams();
   // const hero = getHeroById(heroeId);
 
+  const history = useHistory();
+
   const hero = useMemo(() => getHeroById(heroeId), [heroeId]);
+
+  if (!hero) {
+    return <Redirect to="/" />;
+  }
 
   const {
     superhero,
@@ -17,12 +23,6 @@ export const HeroScreen = () => {
     first_appearance,
     characters,
   } = hero;
-
-  const history = useHistory();
-
-  if (!hero) {
-    return <Redirect to="/" />;
-  }
 
   return (
     <div className="md:flex md:w-2/3 m-auto rounded-2xl overflow-hidden bg-hero">
@@ -78,9 +78,16 @@ export const HeroScreen = () => {
             </p>
           </div>
           <button
-            onClick={() =>
-              history.length <= 2 ? history.push('/') : history.goBack()
-            }
+            onClick={() => {
+              if (history.length <= 2) {
+                console.log('push');
+                return history.push('/');
+              } else {
+                console.log('goback');
+                return history.goBack();
+              }
+              // return history.length <= 2 ? history.push('/') : history.goBack();
+            }}
             className="self-end py-2 px-4 m-5 rounded bg-blue-600 hover:bg-blue-800 font-bold"
           >
             Go back

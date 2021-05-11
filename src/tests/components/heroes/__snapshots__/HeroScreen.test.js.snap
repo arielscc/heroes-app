@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando el componente <HeroScreen/> debe de mostrar el componente redirect si no hay argumentos en el URL 1`] = `""`;
+
+exports[`Probando el componente <HeroScreen/> debe de mostrar un hero si el parametro existe y se encuentra 1`] = `
+<div
+  className="md:flex md:w-2/3 m-auto rounded-2xl overflow-hidden bg-hero"
+>
+  <div
+    className="md:w-3/6 xl:w-2/6"
+  >
+    <img
+      alt=""
+      className="w-full h-full"
+      src="../assets/heroes/marvel-hulk.jpg"
+    />
+  </div>
+  <div
+    className="text-center p-4 bg-hero text-white relative md:w-3/6 md:p-14 xl:w-4/6 xl:p-20 "
+  >
+    <div
+      className="md:relative md:-mr-4"
+    >
+      <div
+        className="bg-white absolute -top-8 right-3 rounded-full p-1"
+      >
+        <svg
+          className="w-14 h-14 mx-auto"
+          viewBox="0 0 592.3 569.2"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            clipRule="evenodd"
+            fillRule="evenodd"
+            transform="matrix(1.17075 0 0 1.17075 -3.7 -14.8)"
+          >
+            <ellipse
+              cx="256.1"
+              cy="255.8"
+              rx="239.3"
+              ry="229.5"
+              stroke="#1f2937"
+              strokeWidth="27.3"
+            />
+            <ellipse
+              cx="256.1"
+              cy="255.8"
+              fill="#fff"
+              rx="192.5"
+              ry="184.6"
+            />
+            <ellipse
+              cx="256.1"
+              cy="255.8"
+              rx="135.3"
+              ry="129.8"
+              stroke="#1f2937"
+              strokeWidth="15.4"
+            />
+            <g
+              stroke="#1f2937"
+              strokeWidth="13.6"
+            >
+              <path
+                d="M279.3 44L101.6 434.4h68.3l46.5-112.6h62.1l.8 38.8 59-2.3-4.7-313.5z"
+                fill="#fff"
+              />
+              <path
+                d="M280 262v-88.4L242 262zM280.1 236.4l57.4 58.3M279.3 347.4l58.2-45.8"
+                fill="none"
+              />
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <h1
+      className="font-bold text-4xl mt-4 leading-8 md:text-6xl"
+    >
+      Hulk
+    </h1>
+    <p
+      className="uppercase text-gray-400 text-sm tracking-wide"
+    >
+      Marvel Comics
+    </p>
+    <div
+      className="text-left mt-2 font-light flex flex-col"
+    >
+      <div
+        className="flex justify-between my-1"
+      >
+        <p
+          className="font-bold"
+        >
+          Name:
+        </p>
+        <p>
+           
+          Bruce Banner
+        </p>
+      </div>
+      <hr
+        className="border-gray-600"
+      />
+      <div
+        className="flex justify-between my-1"
+      >
+        <p
+          className="font-bold"
+        >
+          First Apparance:
+        </p>
+        <p
+          className="text-right w-1/2"
+        >
+           
+          The Incredible Hulk #1
+        </p>
+      </div>
+      <hr
+        className="border-gray-600"
+      />
+      <div
+        className="flex justify-between my-1"
+      >
+        <p
+          className="font-bold"
+        >
+          Characters:
+        </p>
+        <p>
+           
+          Bruce Banner
+        </p>
+      </div>
+      <hr
+        className="border-gray-600"
+      />
+      <div
+        className="flex justify-between my-1"
+      >
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima porro impedit placeat accusamus, beatae dolor maiores reiciendis voluptates, obcaecati inventore optio doloremque provident ex expedita dolorem aliquam doloribus nemo dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ad molestiae placeat? Facilis nemo quidem libero repellendus fuga officia, repudiandae dignissimos deleniti, recusandae aperiam iure, ducimus possimus ipsum atque rerum?
+        </p>
+      </div>
+      <button
+        className="self-end py-2 px-4 m-5 rounded bg-blue-600 hover:bg-blue-800 font-bold"
+        onClick={[Function]}
+      >
+        Go back
+      </button>
+    </div>
+  </div>
+</div>
+`;
