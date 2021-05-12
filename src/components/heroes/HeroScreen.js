@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import { Redirect, useHistory, useParams } from 'react-router-dom';
 import { getHeroById } from '../../selectors/getHeroById';
+import { loadImage } from '../helpers/heroImages';
 import { DcLogo } from './DcLogo';
 import { MarvelLogo } from './MarvelLogo';
 
@@ -11,24 +12,18 @@ export const HeroScreen = () => {
   const history = useHistory();
 
   const hero = useMemo(() => getHeroById(heroeId), [heroeId]);
-
   if (!hero) {
     return <Redirect to="/" />;
   }
 
-  const {
-    superhero,
-    publisher,
-    alter_ego,
-    first_appearance,
-    characters,
-  } = hero;
+  const { superhero, publisher, alter_ego, first_appearance, characters } =
+    hero;
 
   return (
     <div className="md:flex md:w-2/3 m-auto rounded-2xl overflow-hidden bg-hero">
       <div className="md:w-3/6 xl:w-2/6">
         <img
-          src={`../assets/heroes/${heroeId}.jpg`}
+          src={loadImage(`${heroeId}.jpg`)}
           alt=""
           className="w-full h-full"
         />

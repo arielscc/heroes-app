@@ -12,7 +12,7 @@ exports[`Probando el componente <HeroScreen/> debe de mostrar un hero si el para
     <img
       alt=""
       className="w-full h-full"
-      src="../assets/heroes/marvel-hulk.jpg"
+      src=""
     />
   </div>
   <div

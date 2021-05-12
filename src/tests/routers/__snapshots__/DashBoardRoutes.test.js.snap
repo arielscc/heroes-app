@@ -204,7 +204,7 @@ Array [
         <img
           alt="Spider Man"
           className="rounded-xl"
-          src="./assets/heroes/marvel-spider.jpg"
+          src=""
         />
         <div
           className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -296,7 +296,7 @@ Array [
         <img
           alt="Captain America"
           className="rounded-xl"
-          src="./assets/heroes/marvel-captain.jpg"
+          src=""
         />
         <div
           className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -388,7 +388,7 @@ Array [
         <img
           alt="Iron Man"
           className="rounded-xl"
-          src="./assets/heroes/marvel-iron.jpg"
+          src=""
         />
         <div
           className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -480,7 +480,7 @@ Array [
         <img
           alt="Thor"
           className="rounded-xl"
-          src="./assets/heroes/marvel-thor.jpg"
+          src=""
         />
         <div
           className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -572,7 +572,7 @@ Array [
         <img
           alt="Hulk"
           className="rounded-xl"
-          src="./assets/heroes/marvel-hulk.jpg"
+          src=""
         />
         <div
           className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -664,7 +664,7 @@ Array [
         <img
           alt="Wolverine"
           className="rounded-xl"
-          src="./assets/heroes/marvel-wolverine.jpg"
+          src=""
         />
         <div
           className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -756,7 +756,7 @@ Array [
         <img
           alt="Daredevil"
           className="rounded-xl"
-          src="./assets/heroes/marvel-daredevil.jpg"
+          src=""
         />
         <div
           className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -848,7 +848,7 @@ Array [
         <img
           alt="Hawkeye"
           className="rounded-xl"
-          src="./assets/heroes/marvel-hawkeye.jpg"
+          src=""
         />
         <div
           className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -940,7 +940,7 @@ Array [
         <img
           alt="Cyclops"
           className="rounded-xl"
-          src="./assets/heroes/marvel-cyclops.jpg"
+          src=""
         />
         <div
           className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -1032,7 +1032,7 @@ Array [
         <img
           alt="Silver Surfer"
           className="rounded-xl"
-          src="./assets/heroes/marvel-silver.jpg"
+          src=""
         />
         <div
           className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"

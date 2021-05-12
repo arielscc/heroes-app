@@ -42,7 +42,7 @@ Array [
       <img
         alt="Batman"
         className="rounded-xl"
-        src="./assets/heroes/dc-batman.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -104,7 +104,7 @@ Array [
       <img
         alt="Superman"
         className="rounded-xl"
-        src="./assets/heroes/dc-superman.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -166,7 +166,7 @@ Array [
       <img
         alt="Flash"
         className="rounded-xl"
-        src="./assets/heroes/dc-flash.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -228,7 +228,7 @@ Array [
       <img
         alt="Green Lantern"
         className="rounded-xl"
-        src="./assets/heroes/dc-green.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -290,7 +290,7 @@ Array [
       <img
         alt="Green Arrow"
         className="rounded-xl"
-        src="./assets/heroes/dc-arrow.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -352,7 +352,7 @@ Array [
       <img
         alt="Wonder Woman"
         className="rounded-xl"
-        src="./assets/heroes/dc-wonder.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -414,7 +414,7 @@ Array [
       <img
         alt="Martian Manhunter"
         className="rounded-xl"
-        src="./assets/heroes/dc-martian.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -476,7 +476,7 @@ Array [
       <img
         alt="Robin/Nightwing"
         className="rounded-xl"
-        src="./assets/heroes/dc-robin.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -538,7 +538,7 @@ Array [
       <img
         alt="Blue Beetle"
         className="rounded-xl"
-        src="./assets/heroes/dc-blue.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -600,7 +600,7 @@ Array [
       <img
         alt="Black Canary"
         className="rounded-xl"
-        src="./assets/heroes/dc-black.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -662,7 +662,7 @@ Array [
       <img
         alt="Spider Man"
         className="rounded-xl"
-        src="./assets/heroes/marvel-spider.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -754,7 +754,7 @@ Array [
       <img
         alt="Captain America"
         className="rounded-xl"
-        src="./assets/heroes/marvel-captain.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -846,7 +846,7 @@ Array [
       <img
         alt="Iron Man"
         className="rounded-xl"
-        src="./assets/heroes/marvel-iron.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -938,7 +938,7 @@ Array [
       <img
         alt="Thor"
         className="rounded-xl"
-        src="./assets/heroes/marvel-thor.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -1030,7 +1030,7 @@ Array [
       <img
         alt="Hulk"
         className="rounded-xl"
-        src="./assets/heroes/marvel-hulk.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -1122,7 +1122,7 @@ Array [
       <img
         alt="Wolverine"
         className="rounded-xl"
-        src="./assets/heroes/marvel-wolverine.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -1214,7 +1214,7 @@ Array [
       <img
         alt="Daredevil"
         className="rounded-xl"
-        src="./assets/heroes/marvel-daredevil.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -1306,7 +1306,7 @@ Array [
       <img
         alt="Hawkeye"
         className="rounded-xl"
-        src="./assets/heroes/marvel-hawkeye.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -1398,7 +1398,7 @@ Array [
       <img
         alt="Cyclops"
         className="rounded-xl"
-        src="./assets/heroes/marvel-cyclops.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"
@@ -1490,7 +1490,7 @@ Array [
       <img
         alt="Silver Surfer"
         className="rounded-xl"
-        src="./assets/heroes/marvel-silver.jpg"
+        src=""
       />
       <div
         className="absolute bg-hero rounded-b-xl left-0 right-0 bottom-0  p-2 border-t-4 border-white flex footer duration-150"

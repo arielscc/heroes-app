@@ -3,15 +3,11 @@ import { Link } from 'react-router-dom';
 import { DcLogo } from './DcLogo';
 import { MarvelLogo } from './MarvelLogo';
 
+import { loadImage } from '../helpers/heroImages';
+
 export const HeroeCard = ({ hero }) => {
-  const {
-    id,
-    superhero,
-    publisher,
-    alter_ego,
-    first_appearance,
-    characters,
-  } = hero;
+  const { id, superhero, publisher, alter_ego, first_appearance, characters } =
+    hero;
 
   return (
     <Link
@@ -19,7 +15,7 @@ export const HeroeCard = ({ hero }) => {
       className="relative rounded-xl transform hover:scale-105 cursor-pointer duration-150 overflow-hidden image"
     >
       <img
-        src={`./assets/heroes/${id}.jpg`}
+        src={loadImage(`${id}.jpg`)}
         alt={superhero}
         className="rounded-xl"
       />
